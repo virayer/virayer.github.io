@@ -16,6 +16,8 @@ $ git init [project-name]
 $ git clone [url]
 ```
 
+<!--more-->
+
 ### 二、配置
 
 Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置），也可以在项目目录下（项目配置）。
