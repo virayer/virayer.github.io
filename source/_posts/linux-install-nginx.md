@@ -1,6 +1,6 @@
 ---
 title: Linux安装Nginx
-date: 2018-03-09 14:52:53
+date: 2018-11-29 16:00:00
 tags: 
 ---
 ### centos使用如下指令
