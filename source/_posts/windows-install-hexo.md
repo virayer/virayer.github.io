@@ -1,3 +1,8 @@
+---
+title: Windows下安装Hexo
+date: 2018-11-29 17:00:00
+tags: 
+---
 # Windows下安装Hexo
 
 ## 一、安装node.js
@@ -16,16 +21,27 @@
 
 ## 三、安装hexo
 
+> 官网：https://hexo.io/zh-cn/
+
 1. 在目录右击，点击`git bash here`
 2. 安装hexo
 
 ```sh
 npm install -g hexo-cli
 npm install hexo --save
+npm install --save hexo-deployer-git
+npm install hexo-server --save
 ```
 
 3. 检测hexo是否安装成功
 ```sh
 hexo -v
 ```
+3. 安装已存在目录的package.json
+
+```sh
+npm install
+```
+
+
 
